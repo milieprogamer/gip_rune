@@ -7,7 +7,9 @@ width, height = 700, 700
 
 win = pygame.display.set_mode((width, height))
 
-cam = cv2.VideoCapture(1)
+cam = cv2.VideoCapture(0)
+
+
 
 color = (255, 0, 0)
 
