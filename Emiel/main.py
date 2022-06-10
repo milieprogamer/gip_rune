@@ -55,7 +55,7 @@ def convert(v):
     elif v == 'U':
         return (255, 255, 0)
     elif v == 'B':
-        return (0, 0, 255)
+        return (0, 255, 0)
     elif v == 'F':
         return (0, 0, 255)
 
@@ -82,14 +82,14 @@ while True:
         break
 
     r = pygame.draw.rect(win, convert(b11), b11r)
-    r = pygame.draw.rect(win, convert(b11), b11r)
-    r = pygame.draw.rect(win, convert(b11), b11r)
-    r = pygame.draw.rect(win, convert(b11), b11r)
-    r = pygame.draw.rect(win, convert(b11), b11r)
-    r = pygame.draw.rect(win, convert(b32), b11r)
-    r = pygame.draw.rect(win, convert(b13), b11r)
-    r = pygame.draw.rect(win, convert(b23), b11r)
-    r = pygame.draw.rect(win, convert(b33), b11r)
+    r = pygame.draw.rect(win, convert(b11), b21r)
+    r = pygame.draw.rect(win, convert(b11), b31r)
+    r = pygame.draw.rect(win, convert(b11), b12r)
+    r = pygame.draw.rect(win, convert(b11), centerr)
+    r = pygame.draw.rect(win, convert(b32), b32r)
+    r = pygame.draw.rect(win, convert(b13), b13r)
+    r = pygame.draw.rect(win, convert(b23), b23r)
+    r = pygame.draw.rect(win, convert(b33), b33r)
     pygame.display.update()
 
 cv2.destroyAllWindows()
