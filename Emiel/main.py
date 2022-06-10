@@ -36,14 +36,14 @@ def detect(frame, x, y, color):
         return 'R'
 
 b11r = pygame.rect.Rect(200, 200, 100, 100)
-b21r = pygame.rect.Rect(400, 200, 100, 100)
-b31r = pygame.rect.Rect(600, 200, 100, 100)
-b12r = pygame.rect.Rect(200, 400, 100, 100)
-centerr = pygame.rect.Rect(400, 400, 100, 100)
-b32r = pygame.rect.Rect(600, 400, 100, 100)
-b13r = pygame.rect.Rect(200, 600, 100, 100)
-b23r = pygame.rect.Rect(400, 600, 100, 100)
-b33r = pygame.rect.Rect(600, 600, 100, 100)
+b21r = pygame.rect.Rect(300, 200, 100, 100)
+b31r = pygame.rect.Rect(400, 200, 100, 100)
+b12r = pygame.rect.Rect(200, 300, 100, 100)
+centerr = pygame.rect.Rect(300, 300, 100, 100)
+b32r = pygame.rect.Rect(400, 300, 100, 100)
+b13r = pygame.rect.Rect(200, 400, 100, 100)
+b23r = pygame.rect.Rect(300, 400, 100, 100)
+b33r = pygame.rect.Rect(400, 400, 100, 100)
 
 def convert(v):
     if v == 'D':
