@@ -17,21 +17,30 @@ def detect(frame, x, y, color):
     cv2.circle(frame, (x, y), 5, color, 3)
     hsv_frame = cv2.cvtColor(frame, cv2.COLOR_BGR2HSV)
     d = hsv_frame[x, y]
-    a = d[0]
-    b = d[1]
-    c = d[2]
-    if b < 10 and c > 50:
-        return 'D'
-    elif a < 10:
-        return 'R'
-    elif a < 50:
-        return 'L'
-    elif a < 75:
-        return 'U'
-    elif a < 175:
-        return 'B'
-    elif a < 300:
-        return 'F'
+    a = d[0] #h
+    b = d[1] #s
+    c = d[2] #v
+
+    #geel vanboven en groen vooraan
+
+    if b < 0 and b > 46 and c < 176 and c > 98:
+        return 'D' #wit
+
+    elif a < 5 and a > 0 and b < 212 and b > 111 and c < 255 and c > 153:
+        return 'R' #orangje
+
+    elif a < 179 and a > 155 and b < 211 and b > 150 and c < 255 and c > 70:
+        return 'L' #red
+
+    elif a < 75 and a > 56 and b < 255 and b > 151 and c < 255 and c > 68:
+        return 'U' #geel
+
+    elif a < 37 and a > 24 and b < 196 and b > 96 and c < 255 and c > 119:
+        return 'B' #blue
+
+    elif a < 111 and a > 102 and b < 255 and b > 185 and c < 255 and c > 119:
+        return 'F' #groen
+
     else:
         return 'R'
 
