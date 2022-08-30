@@ -1,13 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9f76cc3b-7a95-4909-94d7-332cb9117fa3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Rune/more testing.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gip_rune.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gip_rune.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Rune/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/Rune/main.py" afterDir="false" />
-    </list>
+    <list default="true" id="9f76cc3b-7a95-4909-94d7-332cb9117fa3" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
